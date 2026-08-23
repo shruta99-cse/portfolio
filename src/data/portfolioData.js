@@ -14,7 +14,7 @@ export const personalDetails = {
   github: "https://github.com/shruta99-cse",
   linkedin: "https://www.linkedin.com/in/shruti-sathe-041388376/",
   leetcode: "https://leetcode.com/u/shruti_sathe_1704/",
-  avatar: "/profile.png",
+avatar: `${import.meta.env.BASE_URL}profile.png`,
   availableForHire: true,
   summary: "Computer Science undergraduate (CPI: 8.60) with hands-on full-stack experience across Java, Spring Boot, React.js, Python, and MySQL. Delivered a sponsored, production-facing inventory management system for an industry client, and built federated learning & ML applications. Track record of shipping modular React code during software development internships."
 };
